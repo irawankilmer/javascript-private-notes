@@ -15,9 +15,7 @@
 
 Repositori ini disusun menjadi beberapa bagian utama untuk memudahkan navigasi dan pencarian informasi:
 
-1. **Basics:**
-   - Variabel, tipe data, dan operator.
-   - Kontrol alur (if, switch, loops).
+1. **[Introductions](./1-introductions/README.md):**
 2. **Functions:**
    - Deklarasi dan ekspresi fungsi.
    - Callback dan fungsi higher-order.
@@ -37,4 +35,5 @@ cd javascript-private-notes
 ```
 
 ## Contributing
+
 Kontribusi sangat diterima! Jika Anda menemukan kesalahan atau memiliki saran untuk perbaikan, silakan buat pull request atau buka issue. Semua kontribusi akan dipertimbangkan dan dihargai.
