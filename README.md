@@ -15,15 +15,8 @@
 
 Repositori ini disusun menjadi beberapa bagian utama untuk memudahkan navigasi dan pencarian informasi:
 
-1. **[Introductions](./1-introductions/README.md):**
-2. **Functions:**
-   - Deklarasi dan ekspresi fungsi.
-   - Callback dan fungsi higher-order.
-3. **Objects and Arrays:**
-   - Pembuatan dan manipulasi objek dan array.
-4. **Advanced Topics:**
-   - Asynchronous JavaScript (promises, async/await).
-   - Modules dan penggunaan ES6.
+1. **[Introductions](./1-introductions/README.md)**
+2. **[Variables](./2-variables/README.md)**
 
 ## Usage
 

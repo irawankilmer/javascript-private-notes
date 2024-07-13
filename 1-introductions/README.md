@@ -316,3 +316,5 @@ Node.js memiliki banyak framework dan library yang dapat membantu Anda membangun
 ### 3. Menjalankan JavaScript di Editor atau IDE
 
 Ada berbagai editor dan IDE yang mendukung JavaScript, seperti Visual Studio Code, Sublime Text, atau WebStorm. Alat-alat ini sering memiliki terminal terintegrasi yang memungkinkan Kita menjalankan Node.js langsung dari editor.
+
+[🏠Home](../README.md) | [Selanjutnya ⏭](../2-variables/README.md)

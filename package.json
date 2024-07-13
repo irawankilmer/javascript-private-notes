@@ -1,0 +1,16 @@
+{
+  "name": "javascript-private-notes",
+  "version": "1.0.0",
+  "description": "ini adalah repositori pribadi yang saya buat untuk mendokumentasikan perjalanan belajar JavaScript saya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "javascript",
+    "learn"
+  ],
+  "author": "irawankilmer",
+  "license": "MIT"
+}
