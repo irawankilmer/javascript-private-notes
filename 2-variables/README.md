@@ -8,4 +8,4 @@ Berikut beberapa materi yang akan dibahas pada step ini:
 4. [Aturan Penamaan Variabel](./rules/README.md)
 5. [Scope Variabel (Block, Function, dan Global)](./scope/README.md)
 
-[⏮ Sebelumnya](../1-introductions/README.md) | [🏠Home](../README.md)
+[⏮ Sebelumnya](../1-introductions/README.md) | [🏠Home](../README.md) | [Selanjutnya ⏭](../3-typedata/README.md)

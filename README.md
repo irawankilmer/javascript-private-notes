@@ -17,6 +17,7 @@ Repositori ini disusun menjadi beberapa bagian utama untuk memudahkan navigasi d
 
 1. **[Introductions](./1-introductions/README.md)**
 2. **[Variables](./2-variables/README.md)**
+3. **[Data Types](./3-typedata/README.md)**
 
 ## Usage
 
