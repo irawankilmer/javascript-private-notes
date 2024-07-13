@@ -38,4 +38,4 @@ Tipe data primitif adalah tipe data dasar yang ada dalam bahasa pemrograman Java
 
 Memahami tipe data primitif sangat penting karena mereka adalah blok pembangun dasar dari semua program JavaScript. Tipe data ini digunakan untuk menyimpan dan memanipulasi informasi dalam berbagai cara. Mengetahui perbedaan antara tipe data primitif dan non-primitif juga membantu dalam menulis kode yang lebih efisien dan bebas bug.
 
-[🏠Home](../README.md) |
+[🏠Home](../README.md) | [Selanjutnya⏭](../non-primitif/README.md)

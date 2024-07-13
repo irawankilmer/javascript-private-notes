@@ -4,45 +4,7 @@ Tipe data adalah jenis nilai yang dapat disimpan dan dimanipulasi dalam sebuah p
 
 **[Tipe Data Primitif](./primitif/README.md)**
 
-## Tipe Data Non-Primitif
-
-**1. Object**
-
-Objek adalah tipe data kompleks yang digunakan untuk menyimpan koleksi data dan entitas yang lebih kompleks. Objek dapat menyimpan pasangan `key-value` dan memiliki berbagai metode untuk memanipulasi data.
-
-**2. Array**
-
-Array adalah objek khusus yang digunakan untuk menyimpan daftar berurutan dari beberapa nilai. Array memiliki metode bawaan untuk operasi seperti penambahan, penghapusan, dan pencarian elemen.
-
-**3. Function**
-
-Fungsi adalah blok kode yang dirancang untuk melakukan tugas tertentu. Fungsi dapat disimpan dalam variabel, dilewatkan sebagai argumen ke fungsi lain, dan dikembalikan oleh fungsi lain.
-
-**4. Date**
-
-Tipe data `Date` digunakan untuk bekerja dengan tanggal dan waktu. JavaScript menyediakan banyak metode untuk manipulasi tanggal.
-
-**5. Map dan Set**
-
-`Map` adalah objek yang menyimpan pasangan kunci-nilai di mana kunci dapat berupa tipe data apa pun. `Set` adalah koleksi nilai unik. `WeakMap` dan `WeakSet` adalah versi dari `Map` dan `Set` yang memungkinkan pengumpulan sampah untuk entri yang tidak direferensikan.
-
-## Operator `typeof`
-
-Operator `typeof` digunakan untuk menentukan tipe data dari sebuah nilai. Misalnya, `typeof 42` akan mengembalikan "number" dan `typeof "hello"` akan mengembalikan "string".
-
-## Objek dalam JavaScript
-
-**Built-in Objects**
-
-JavaScript menyediakan banyak objek bawaan seperti `String`, `Number`, `Boolean`, `Math`, `Date`, dll., yang memiliki metode dan properti yang berguna.
-
-**Object Prototype**
-
-Semua objek di JavaScript memiliki properti tersembunyi yang disebut prototype. Prototype adalah objek dari mana objek lain mewarisi metode dan properti.
-
-**Prototypal Inheritance**
-
-Pewarisan prototipe adalah model pewarisan di JavaScript di mana objek dapat mewarisi properti dan metode dari objek lain.
+**[Tipe Data Non-Primitif](./non-primitif/README.md)**
 
 ## Informasi Tambahan
 
