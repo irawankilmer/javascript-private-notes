@@ -182,3 +182,137 @@ ES12 memperkenalkan beberapa fitur tambahan seperti:
 #### ECMAScript 14 (ES2023) - 2023
 
 Saat ini, `ES14` sedang dalam tahap proposal dan evaluasi oleh komunitas JavaScript. Pembaruan lebih lanjut akan terus memperkaya bahasa ini dengan fitur-fitur baru yang semakin memudahkan pengembangan aplikasi.
+
+## Cara Menjalankan JavaScript
+
+JavaScript dapat dijalankan dalam berbagai lingkungan, baik di sisi klien (client-side) maupun di sisi server (server-side). Berikut adalah beberapa cara umum untuk menjalankan JavaScript:
+
+### 1. Menjalankan JavaScript di Browser
+
+#### a. Dalam HTML File
+
+Cara paling umum untuk menjalankan JavaScript adalah dengan menyematkannya dalam file HTML. Kita bisa menulis JavaScript langsung di dalam tag `<script>` atau menghubungkan file eksternal .js menggunakan atribut `src`.
+
+**Contoh di dalam HTML file:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Example</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <script>
+      console.log("Hello, World!");
+    </script>
+  </body>
+</html>
+```
+
+**Contoh dengan file eksternal:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Example</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+```
+
+**File `script.js`:**
+
+```javascript
+console.log("Hello, World!");
+```
+
+#### b. Browser Console
+
+Semua browser modern memiliki console JavaScript yang dapat diakses untuk menulis dan menjalankan JavaScript langsung.
+
+1. Buka browser (misalnya Chrome).
+2. Tekan `F12` atau `Ctrl+Shift+I` untuk membuka Developer Tools.
+3. Pilih tab "Console".
+4. Tulis kode JavaScript dan tekan `Enter`.
+
+**Contoh:**
+
+```javascript
+console.log("Hello from the Console!");
+```
+
+### 2. Menjalankan JavaScript di Server
+
+Dengan munculnya Node.js, JavaScript bisa dijalankan di sisi server, memungkinkan pengembangan aplikasi back-end menggunakan JavaScript.
+
+#### a. Menggunakan Node.js
+
+Node.js adalah lingkungan runtime JavaScript yang memungkinkan Kita menjalankan JavaScript di luar browser.
+
+1. **Install Node.js:**
+
+   - Download dan install dari [Node.js](https://nodejs.org/).
+
+2. **Menulis dan Menjalankan Script JavaScript:**
+   - Buat file dengan ekstensi `.js` (misalnya `app.js`).
+   - Tulis kode JavaScript di dalamnya.
+
+**Contoh `app.js`:**
+
+```javascript
+console.log("Hello, World from Node.js!");
+```
+
+3. **Jalankan Script:**
+   - Buka terminal atau command prompt.
+   - Navigasi ke direktori tempat file `app.js` disimpan.
+   - Jalankan perintah:
+     ```bash
+     node app.js
+     ```
+
+#### b. Menggunakan Framework dan Library
+
+Node.js memiliki banyak framework dan library yang dapat membantu Anda membangun aplikasi server-side, seperti Express.js.
+
+**Contoh aplikasi sederhana dengan Express.js:**
+
+1. **Install Express.js:**
+
+   ```bash
+   npm install express
+   ```
+
+2. **Buat file `server.js`:**
+
+   ```javascript
+   const express = require("express");
+   const app = express();
+   const port = 3000;
+
+   app.get("/", (req, res) => {
+     res.send("Hello, World from Express!");
+   });
+
+   app.listen(port, () => {
+     console.log(`Server running at http://localhost:${port}`);
+   });
+   ```
+
+3. **Jalankan Server:**
+   ```bash
+   node server.js
+   ```
+
+### 3. Menjalankan JavaScript di Editor atau IDE
+
+Ada berbagai editor dan IDE yang mendukung JavaScript, seperti Visual Studio Code, Sublime Text, atau WebStorm. Alat-alat ini sering memiliki terminal terintegrasi yang memungkinkan Kita menjalankan Node.js langsung dari editor.
